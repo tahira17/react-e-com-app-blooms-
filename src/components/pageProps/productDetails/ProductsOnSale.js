@@ -1,5 +1,5 @@
 import React from "react";
-import { SplOfferData } from "../../../constants";
+import { SplOfferData } from "../../../Data";
 
 const ProductsOnSale = () => {
   return (

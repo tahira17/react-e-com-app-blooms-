@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Breadcrumbs from "../../pageProps/Breadcrumbs";
-import Pagination from "../../pageProps/shopPage/Pagination";
-import ProductBanner from "../../pageProps/shopPage/ProductBanner";
-import ShopSideNav from "../../pageProps/shopPage/ShopSideNav";
+import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
+import Pagination from "../../components/pageProps/shopPage/Pagination";
+import ProductBanner from "../../components/pageProps/shopPage/ProductBanner";
+import ShopSideNav from "../../components/pageProps/shopPage/ShopSideNav";
 
 const Shop = () => {
   const [itemsPerPage, setItemsPerPage] = useState(12);
